@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\src\core\types.h" />
+    <ClInclude Include="..\..\src\core\message.h" />
+    <ClInclude Include="..\..\src\core\crc32.h" />
+    <ClInclude Include="..\..\src\core\file.h" />
+    <ClInclude Include="..\..\src\core\time.h" />
+    <ClInclude Include="..\..\src\core\logging.h" />
+    <ClInclude Include="..\..\src\core\debug.h" />
+    <ClInclude Include="..\..\src\core\helpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\core\crc32.c" />
+    <ClCompile Include="..\..\src\core\win32\file.c" />
+    <ClCompile Include="..\..\src\core\win32\time.c" />
+    <ClCompile Include="..\..\src\core\logging.c" />
+    <ClCompile Include="..\..\src\core\debug.c" />
+    <ClCompile Include="..\..\src\core\helpers.c" />
+  </ItemGroup>
+</Project>

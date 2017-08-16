@@ -1,0 +1,7 @@
+EXPORTS
+	meter_create
+	meter_destroy
+	meter_reset_init
+	meter_reset_post
+	meter_update
+	meter_was_updated

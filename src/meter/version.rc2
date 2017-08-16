@@ -1,0 +1,51 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+#include "version.inc"
+
+#define STR(value) #value
+#define STRINGIZE(value) STR(value)
+#define BGDM_FULLVERSION_STR \
+  STRINGIZE(BGDM_MAJORNUMBER) "." \
+  STRINGIZE(BGDM_MINORNUMBER) "." \
+  STRINGIZE(BGDM_BUILDNUMBER) "." \
+  STRINGIZE(BGDM_MODIFICATIONNUMBER)
+
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION BGDM_MAJORNUMBER,BGDM_MINORNUMBER,BGDM_BUILDNUMBER,BGDM_MODIFICATIONNUMBER
+ PRODUCTVERSION BGDM_MAJORNUMBER,BGDM_MINORNUMBER,BGDM_BUILDNUMBER,BGDM_MODIFICATIONNUMBER
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "Comments", "A fairly useful DPS meter for Guild Wars 2"
+            VALUE "CompanyName", "Bhagawan Inc."
+            VALUE "FileDescription", "bgdm"
+            VALUE "FileVersion", BGDM_FULLVERSION_STR
+            VALUE "InternalName", "aps"
+            VALUE "LegalCopyright", "Copyright © 2016-" STRINGIZE(BGDM_DATEYEAR)
+            VALUE "OriginalFilename", "bgdm.dll"
+            VALUE "PrivateBuild", ""
+            VALUE "ProductName", "Guild Wars 2 DPS Meter"
+            VALUE "ProductVersion", BGDM_FULLVERSION_STR
+            VALUE "SpecialBuild", BGDM_BUILDEXT
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END

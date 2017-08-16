@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\src\server\network.h" />
+    <ClInclude Include="..\..\src\server\context.h" />
+    <ClInclude Include="..\..\src\server\debug.h" />
+    <ClInclude Include="..\..\src\server\crypto.h" />
+    <ClInclude Include="..\..\src\server\resource.h" />
+    <ClInclude Include="..\..\src\server\lru_cache.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\server\entry.c" />
+    <ClCompile Include="..\..\src\server\win32\network.c" />
+    <ClCompile Include="..\..\src\server\context.c" />
+    <ClCompile Include="..\..\src\server\crypto.c" />
+    <ClCompile Include="..\..\src\server\lru_cache.c" />
+    <ClCompile Include="..\..\src\meter\utf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\meter\version.inc" />
+    <None Include="..\..\src\meter\version.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\server\server.rc" />
+  </ItemGroup>
+</Project>

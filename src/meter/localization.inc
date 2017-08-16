@@ -1,0 +1,595 @@
+// X macro file for language defaults
+// format: (enum_var, "localized_text")
+
+// Langauge name
+LOCALTEXT(TEXT_LANGUAGE,			"English")
+
+// App-wide globals
+LOCALTEXT(TEXT_GLOBAL_YES,			"Yes")
+LOCALTEXT(TEXT_GLOBAL_NO,			"No")
+LOCALTEXT(TEXT_GLOBAL_ENABLED,		"Enabled")
+LOCALTEXT(TEXT_GLOBAL_DISABLED,		"Disabled")
+LOCALTEXT(TEXT_GLOBAL_ALL,			"All")
+LOCALTEXT(TEXT_GLOBAL_NONE,			"None")
+LOCALTEXT(TEXT_GLOBAL_NONE_CAPS,	"NONE")
+LOCALTEXT(TEXT_GLOBAL_DEFAULT,		"Default")
+LOCALTEXT(TEXT_GLOBAL_WVW,			"WvW")
+LOCALTEXT(TEXT_GLOBAL_MIN,			"min")
+LOCALTEXT(TEXT_GLOBAL_MAX,			"max")
+LOCALTEXT(TEXT_GLOBAL_ADD,			"Add")
+LOCALTEXT(TEXT_GLOBAL_REMOVE,		"Remove")
+LOCALTEXT(TEXT_GLOBAL_REMOVE_SEL,	"Remove Selected")
+LOCALTEXT(TEXT_GLOBAL_REVERT,		"Revert")
+LOCALTEXT(TEXT_GLOBAL_RESTORE_DEF,	"Restore Defaults")
+LOCALTEXT(TEXT_GLOBAL_OPTIONS,		"Options")
+LOCALTEXT(TEXT_GLOBAL_COLUMNS,		"Columns")
+LOCALTEXT(TEXT_GLOBAL_HIDE,			"Hide")
+LOCALTEXT(TEXT_GLOBAL_INT,			"Int")
+LOCALTEXT(TEXT_GLOBAL_FLOAT,		"Float")
+LOCALTEXT(TEXT_GLOBAL_FIXED,		"Fixed")
+LOCALTEXT(TEXT_GLOBAL_DYNAMIC,		"Dynamic")
+LOCALTEXT(TEXT_GLOBAL_ICON,			"Icon")
+
+LOCALTEXT(TEXT_GLOBAL_FRIENDLY,		"Friendly")
+LOCALTEXT(TEXT_GLOBAL_HOSTILE,		"Hostile")
+
+// Fonts
+LOCALTEXT(TEXT_GLOBAL_FONT,			"Font")
+LOCALTEXT(TEXT_GLOBAL_FONT_SMALL,	"Tiny")
+LOCALTEXT(TEXT_GLOBAL_FONT_NORMAL,	"Normal")
+
+// Compass
+LOCALTEXT(TEXT_GLOBAL_COMPASS,		"Compass")
+
+// Color picker
+LOCALTEXT(TEXT_GLOBAL_COLOR,			"Color")
+LOCALTEXT(TEXT_GLOBAL_COLORPICK_RGB,	"RGB")
+LOCALTEXT(TEXT_GLOBAL_COLORPICK_HSV,	"HSV")
+LOCALTEXT(TEXT_GLOBAL_COLORPICK_HEX,	"HEX")
+LOCALTEXT(TEXT_GLOBAL_COLORPICK_MODE,	"Color picker mode")
+LOCALTEXT(TEXT_GLOBAL_COLORPICK_MODE_HELP,
+		"Determines the editable boxes of the color picker.\n")
+LOCALTEXT(TEXT_GLOBAL_COLORPICK_HELP,
+		"Right click the colored button\n"
+		"to open the color picker")
+
+// Color descriptions
+LOCALTEXT(TEXT_COL_TEXT,					"Text")
+LOCALTEXT(TEXT_COL_TEXT_DISABLED,			"Text disabled")
+LOCALTEXT(TEXT_COL_TEXT_1,					"Text Panel #1")
+LOCALTEXT(TEXT_COL_TEXT_2,					"Text Panel #2")
+LOCALTEXT(TEXT_COL_TEXT_3,					"Text Panel #3")
+LOCALTEXT(TEXT_COL_TEXT_PLAYER,				"Text Player")
+LOCALTEXT(TEXT_COL_TEXT_PLAYER_SELF,		"Text Player (self)")
+LOCALTEXT(TEXT_COL_TEXT_PLAYER_DEAD,		"Text Player (dead)")
+LOCALTEXT(TEXT_COL_TEXT_TARGET,				"Text Target")
+LOCALTEXT(TEXT_COL_GRADIENT_START,			"Gradient BG start")
+LOCALTEXT(TEXT_COL_GRADIENT_END,			"Gradient BG end")
+LOCALTEXT(TEXT_COL_TEXT_BORDER_TLOCK,		"Border (target-lock)")
+LOCALTEXT(TEXT_COL_TEXT_BORDER_LINES,		"Border (lines)")
+LOCALTEXT(TEXT_COL_TEXT_WINDOW_BG,			"Window BG")
+LOCALTEXT(TEXT_COL_TEXT_POPUP_BG,			"Popup BG")
+LOCALTEXT(TEXT_COL_TEXT_FRAME_BG,			"Frame BG")
+LOCALTEXT(TEXT_COL_TEXT_FRAME_BG_ACTIVE,	"Frame BG (active)")
+LOCALTEXT(TEXT_COL_TEXT_FRAME_BG_HOVER,		"Frame BG (hover)")
+LOCALTEXT(TEXT_COL_TEXT_TITLE_BG,			"Title BG")
+LOCALTEXT(TEXT_COL_TEXT_TITLE_BG_COLLAPSED,	"Title BG (collapsed)")
+LOCALTEXT(TEXT_COL_TEXT_TITLE_BG_ACTIVE,	"Title BG (active)")
+LOCALTEXT(TEXT_COL_TEXT_MENUBAR_BG,			"Menubar BG")
+LOCALTEXT(TEXT_COL_TEXT_COMBO_BG,			"Combobox BG")
+LOCALTEXT(TEXT_COL_TEXT_SCROLL_BG,			"Scrollbar BG")
+LOCALTEXT(TEXT_COL_TEXT_SCROLL_GRAB,		"Scrollbar grab")
+LOCALTEXT(TEXT_COL_TEXT_SCROLL_GRAB_HOVER,	"Scrollbar grab (hover)")
+LOCALTEXT(TEXT_COL_TEXT_SCROLL_GRAB_ACTIVE,	"Scrollbar grab (active)")
+LOCALTEXT(TEXT_COL_TEXT_SLIDER_GRAB,		"Slider grab")
+LOCALTEXT(TEXT_COL_TEXT_SLIDER_GRAB_ACTIVE,	"Slider grab (active)")
+LOCALTEXT(TEXT_COL_TEXT_BUTTON,				"Button")
+LOCALTEXT(TEXT_COL_TEXT_BUTTON_ACTIVE,		"Button (active)")
+LOCALTEXT(TEXT_COL_TEXT_BUTTON_HOVER,		"Button (hover)")
+LOCALTEXT(TEXT_COL_TEXT_HEADER,				"Header")
+LOCALTEXT(TEXT_COL_TEXT_HEADER_ACTIVE,		"Header (active)")
+LOCALTEXT(TEXT_COL_TEXT_HEADER_HOVER,		"Header (hover)")
+LOCALTEXT(TEXT_COL_TEXT_COLUMN,				"Column")
+LOCALTEXT(TEXT_COL_TEXT_COLUMN_ACTIVE,		"Column (active)")
+LOCALTEXT(TEXT_COL_TEXT_COLUMN_HOVER,		"Column (hover)")
+LOCALTEXT(TEXT_COL_TEXT_RESIZE,				"Resize Grip")
+LOCALTEXT(TEXT_COL_TEXT_RESIZE_ACTIVE,		"Resize Grip (active)")
+LOCALTEXT(TEXT_COL_TEXT_RESIZE_HOVER,		"Resize Grip (hover)")
+LOCALTEXT(TEXT_COL_TEXT_CLOSE_BTN,			"Close Button")
+LOCALTEXT(TEXT_COL_TEXT_CLOSE_BTN_ACTIVE,	"Close Button (active)")
+LOCALTEXT(TEXT_COL_TEXT_CLOSE_BTN_HOVER,	"Close Button (hover)")
+LOCALTEXT(TEXT_COL_TEXT_PLOTLINES,			"Plot Lines")
+LOCALTEXT(TEXT_COL_TEXT_PLOTLINES_ACTIVE,	"Plot Lines (hover)")
+
+// Color-blind mod
+LOCALTEXT(TEXT_GLOBAL_COLORBLIND,		"Color Blind shader")
+LOCALTEXT(TEXT_GLOBAL_COLORBLIND_HELP,
+		"Apply a color blind shader to GW2:\n"
+		"Protanopia:   reds are greatly reduced (1%% men)\n"
+		"Deuteranopia: greens are greatly reduced (1%% men)\n"
+		"Tritanopia:   blues are greatly reduced (0.003%% population)")
+
+LOCALTEXT(TEXT_GLOBAL_COLORBLIND_MODE1,	"Protanopia")
+LOCALTEXT(TEXT_GLOBAL_COLORBLIND_MODE2,	"Deuteranopia")
+LOCALTEXT(TEXT_GLOBAL_COLORBLIND_MODE3,	"Tritanopia")
+
+// Professions
+LOCALTEXT(TEXT_PROF_GUARDIAN,		"Guardian")
+LOCALTEXT(TEXT_PROF_WARRIOR,		"Warrior")
+LOCALTEXT(TEXT_PROF_ENGINEER,		"Engineer")
+LOCALTEXT(TEXT_PROF_RANGER,			"Ranger")
+LOCALTEXT(TEXT_PROF_THIEF,			"Thief")
+LOCALTEXT(TEXT_PROF_ELEMENTALIST,	"Elementalist")
+LOCALTEXT(TEXT_PROF_MESMER,			"Mesmer")
+LOCALTEXT(TEXT_PROF_NECROMANCER,	"Necromancer")
+LOCALTEXT(TEXT_PROF_REVENANT,		"Revenant")
+
+// Professions - elites
+LOCALTEXT(TEXT_PROF_DRAGONHUNTER,	"DragonHunter")
+LOCALTEXT(TEXT_PROF_BERSERKER,		"Berserker")
+LOCALTEXT(TEXT_PROF_SCRAPPER,		"Scrapper")
+LOCALTEXT(TEXT_PROF_DRUID,			"Druid")
+LOCALTEXT(TEXT_PROF_DAREDEVIL,		"Daredevil")
+LOCALTEXT(TEXT_PROF_TEMPEST,		"Tempest")
+LOCALTEXT(TEXT_PROF_CHRONO,			"Chronomancer")
+LOCALTEXT(TEXT_PROF_REAPER,			"Reaper")
+LOCALTEXT(TEXT_PROF_HERALD,			"Herald")
+
+
+// BGDM Metrics overlay
+LOCALTEXT(TEXT_METRICS_GW2_PING,	"GW2 Ping:")
+LOCALTEXT(TEXT_METRICS_GW2_FPS,		"GW2 FPS:")
+LOCALTEXT(TEXT_METRICS_BGDM_FPS,	"BGDM FPS:")
+LOCALTEXT(TEXT_METRICS_BGDM_APP,	"BGDM App:")
+
+// Server overlay
+LOCALTEXT(TEXT_SERVEROL_AA_ENABLED,		"AUTO-UPDATE ENABLED")
+LOCALTEXT(TEXT_SERVEROL_AA_DISABLED,	"AUTO-UPDATE DISABLED")
+LOCALTEXT(TEXT_SERVEROL_AA_UPDATING,	"UPDATING")
+LOCALTEXT(TEXT_SERVEROL_AA_UPDATE_OK,	"UPDATE SUCCESS")
+LOCALTEXT(TEXT_SERVEROL_AA_UPDATE_FAIL,	"UPDATE FAILED")
+LOCALTEXT(TEXT_SERVEROL_AA_UPDATE_REQ,	"SRV UPDATE")
+LOCALTEXT(TEXT_SERVEROL_AA_UPDATED,		"NO UPDATE REQUIRED")
+LOCALTEXT(TEXT_SERVEROL_SRV_NO_CONN,	"SERVER NOT CONNECTED")
+
+
+// Help
+LOCALTEXT(TEXT_HELP_TITLE,			"BGDM Help")
+LOCALTEXT(TEXT_HELP_BASICS_HEADER,	"The Basics")
+LOCALTEXT(TEXT_HELP_BASICS_TEXT,	"Basic Operations:")
+LOCALTEXT(TEXT_HELP_BINDS_HEADER,	"Shortcuts")
+LOCALTEXT(TEXT_HELP_BINDS_TEXT,		"Default Keybidns:")
+
+// Help - User Guide
+LOCALTEXT(TEXT_HELP_USERGUIDE_BIND,	"to open/close BGDM Options window.")
+LOCALTEXT(TEXT_HELP_USERGUIDE1,		"Double-click on title bar to collapse window.")
+LOCALTEXT(TEXT_HELP_USERGUIDE2,		"Right Click on title bar to view options (if there are any).")
+LOCALTEXT(TEXT_HELP_USERGUIDE3,		"Click and drag on any empty space to move window.")
+LOCALTEXT(TEXT_HELP_USERGUIDE4,		"Click and drag on lower right corner to resize window.")
+LOCALTEXT(TEXT_HELP_USERGUIDE5,		"Double-click  on lower right corner to auto-resize window.")
+LOCALTEXT(TEXT_HELP_USERGUIDE6,		"Left Click on any column header to sort.")
+LOCALTEXT(TEXT_HELP_USERGUIDE7,		"Right Click on any column header to view options.")
+LOCALTEXT(TEXT_HELP_USERGUIDE8,		"Mouse Wheel to scroll.")
+LOCALTEXT(TEXT_HELP_USERGUIDE9,		"CTRL+Mouse Wheel to zoom window contents.")
+
+// Help - Key binds
+LOCALTEXT(TEXT_BIND_BGDM_MAIN,				"BGDM Options")
+LOCALTEXT(TEXT_BIND_GLOBAL_ONOFF,			"Global On/Off")
+LOCALTEXT(TEXT_BIND_INPUTCAP_ONOFF,			"Capture Input On/Off")
+LOCALTEXT(TEXT_BIND_HEADER_ONOFF,			"Hide/Show panel headers")
+LOCALTEXT(TEXT_BIND_BGDM_RELOAD,			"Reload BGDM/Configuration")
+LOCALTEXT(TEXT_BIND_SCREENSHOT,				"Screenshot")
+LOCALTEXT(TEXT_BIND_LOCK_TARGET,			"Lock/Unlock Target")
+LOCALTEXT(TEXT_BIND_DATA_RESET,				"Reset Panels Data")
+LOCALTEXT(TEXT_BIND_LOGGING_ONOFF,			"Logging On/Off")
+LOCALTEXT(TEXT_BIND_PANEL_HP,				"HP/Distance/Breakbar toggle")
+LOCALTEXT(TEXT_BIND_PANEL_COMPASS,			"Compass On/Off")
+LOCALTEXT(TEXT_BIND_PANEL_TARGET,			"Target Stats On/Off")
+LOCALTEXT(TEXT_BIND_PANEL_GROUPDPS,			"Group Stats On/Off")
+LOCALTEXT(TEXT_BIND_PANEL_BUFFUPTIME,		"Buff Uptime On/Off")
+LOCALTEXT(TEXT_BIND_PANEL_SKILLS,			"Skill Breakdown On/Off")
+LOCALTEXT(TEXT_BIND_PANEL_FLOATBARS,		"Float Bars On/Off")
+LOCALTEXT(TEXT_BIND_PANEL_INSPECT_SELF,		"Char Inspect (self) On/Off")
+LOCALTEXT(TEXT_BIND_PANEL_INSPECT_TARGET,	"Char Inspect(target) On/Off")
+
+// About
+LOCALTEXT(TEXT_ABUOT_TITLE,					"About BGDM")
+LOCALTEXT(TEXT_ABOUT_VERSION,				"BGDM version")
+LOCALTEXT(TEXT_ABOUT_WHAT,					"BGDM is a GW2 DPS meter & Buff Uptime monitor.")
+
+
+// Menu - Combat
+LOCALTEXT(TEXT_MENU_CBT_TITLE,				"Combat")
+LOCALTEXT(TEXT_MENU_CBT_OOCGRACE,			"OOC Grace Period")
+LOCALTEXT(TEXT_MENU_CBT_OOCGRACE_HELP,
+		"Out-of-Combat grace period will determine the number of seconds\n"
+		"where exiting and entering combat again will not be considered\n"
+		"\"new combat\" and will therefore not reset combat data\n"
+		"(DPS/damage/buffs/etc).")
+
+LOCALTEXT(TEXT_MENU_CBT_RETENTION,			"Target Retention")
+LOCALTEXT(TEXT_MENU_CBT_RETENTION_HELP,
+		"Target retention time will determine the number of seconds\n"
+		"target data is displayed when a target dies or is de-targeted,\n"
+		"set to -1 to never reset target data until a new target is selected")
+
+LOCALTEXT(TEXT_MENU_TLOCK_TITLE,			"Target-Lock")
+LOCALTEXT(TEXT_MENU_TLOCK_INVALID,			"No Valid Target")
+LOCALTEXT(TEXT_MENU_TLOCK_LOCK,				"Lock Current Target")
+LOCALTEXT(TEXT_MENU_TLOCK_UNLOCK,			"Unlock Current Target")
+
+LOCALTEXT(TEXT_MENU_AUTOLOCK_TITLE,			"Auto-Lock")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_CURRENT,		"Current Target")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_ID,			"Target ID:")
+
+LOCALTEXT(TEXT_MENU_AUTOLOCK_CUSTOM,		"Custom")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_CLEAR_ALL,		"Clear All")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_CLEAR_CUSTOM,	"Clear Custom")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_ALL,		"All Raid Bosses")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_CLEAR,	"Clear Raid Bosses")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING1,	"Wing1")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING2,	"Wing2")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING3,	"Wing3")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING4,	"Wing4")
+
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING1B1,	"Vale Guardian")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING1B2,	"Gorseval")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING1B3,	"Sabetha")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING2B1,	"Slothasor")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING2B21,	"Berg")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING2B22,	"Zane")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING2B23,	"Narella")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING2B3,	"Matthias")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING3B2,	"Keep Construct")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING3B3,	"Xera")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING4B1,	"Cairn")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING4B2,	"Mursaat Overseer")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING4B3,	"Samarog")
+LOCALTEXT(TEXT_MENU_AUTOLOCK_RAID_WING4B4,	"Deimos")
+
+// Menu - Options
+LOCALTEXT(TEXT_MENU_OPT_TINY,				"Tiny")
+LOCALTEXT(TEXT_MENU_OPT_AUTO_RESIZE,		"Auto-Resize")
+LOCALTEXT(TEXT_MENU_OPT_ALPHA,				"Transparency")
+
+
+// Menu - Style
+LOCALTEXT(TEXT_MENU_STYLE_TITLE,			"Style")
+LOCALTEXT(TEXT_MENU_STYLE_GLOBAL,			"Global")
+LOCALTEXT(TEXT_MENU_STYLE_WND_ROUND,		"Window Rounding")
+LOCALTEXT(TEXT_MENU_STYLE_WND_ROUND_HELP,	"Determines if the window frame will be rounded.\n")
+LOCALTEXT(TEXT_MENU_STYLE_ALPHA,			"Global Alpha")
+LOCALTEXT(TEXT_MENU_STYLE_ALPHA_HELP,		"Set the global alpha (transparency) for our app.\n")
+LOCALTEXT(TEXT_MENU_STYLE_METRICS,			"Metrics")
+LOCALTEXT(TEXT_MENU_STYLE_METRICS_BGDM,		"Show BGDM App stats")
+LOCALTEXT(TEXT_MENU_STYLE_METRICS_BGDM_HELP,
+	"Determines if the BGDM app stats will be displayed\n"
+	"in the Metrics overlay (enabled via Help->Metrics).")
+
+LOCALTEXT(TEXT_MENU_STYLE_PROFCOL,			"Profession Coloring")
+LOCALTEXT(TEXT_MENU_STYLE_PROFCOL_HELP,		"Right click on any color below\nto open the color picker")
+
+LOCALTEXT(TEXT_MENU_STYLE_HPBAR,			"HP | Distance | Breakbar")
+LOCALTEXT(TEXT_MENU_STYLE_HP_COMMA,			"Target HP commas")
+LOCALTEXT(TEXT_MENU_STYLE_HP_COMMA_HELP,	"Determines if the target HP will be comma separated.\n")
+LOCALTEXT(TEXT_MENU_STYLE_HP_PER,			"Target %%")
+LOCALTEXT(TEXT_MENU_STYLE_HP_PER_HELP,		"Determines if the target HP percentage\nwill be displayed.")
+LOCALTEXT(TEXT_MENU_STYLE_HP_PER_MODE,		"Target %% mode")
+LOCALTEXT(TEXT_MENU_STYLE_HP_PER_MODE_HELP,
+		"Determines if the target HP percentage will be\n"
+		"displayed as int or float (i.e. 90 or 90.0f)")
+
+LOCALTEXT(TEXT_MENU_STYLE_HP_PER_WIDTH,		"Target %% width")
+LOCALTEXT(TEXT_MENU_STYLE_HP_PER_WIDTH_HELP,
+		"Determines if the target HP percentage will be displayed\n"
+		"as fixed width inside the brackets (i.e. [1%] or [  1%]")
+
+LOCALTEXT(TEXT_MENU_STYLE_COL_PLAYERHP,		"Player HP color")
+LOCALTEXT(TEXT_MENU_STYLE_COL_TARGETHP,		"Target HP color")
+LOCALTEXT(TEXT_MENU_STYLE_COL_TARGETDST,	"Target distance color")
+LOCALTEXT(TEXT_MENU_STYLE_COL_TARGETBB,		"Target breakbar color")
+LOCALTEXT(TEXT_MENU_STYLE_COL_PORT_DIST,	"Portal distance color")
+LOCALTEXT(TEXT_MENU_STYLE_COL_PORT_DIST_BG,	"Portal distance BG color")
+
+// HP Bar - port distance
+LOCALTEXT(TEXT_PORTAL_DISTANCE,				"PORTAL DISTANCE:")
+
+// Menu - Localization
+LOCALTEXT(TEXT_LOCALIZATION_MENU_TITLE,		"Language")
+LOCALTEXT(TEXT_LOCALIZATION_DEFAULT,		"Default (English)")
+LOCALTEXT(TEXT_LOCALIZATION_CURR_LANG,		"Current Language:")
+LOCALTEXT(TEXT_LOCALIZATION_CURR_FILE,		"Language File:")
+LOCALTEXT(TEXT_LOCALIZATION_RESCAN,			"Rescan directory")
+LOCALTEXT(TEXT_LOCALIZATION_RESCAN_HELP,	"Rescan the language directory\nfor new language files:")
+LOCALTEXT(TEXT_LOCALIZATION_RELOAD,			"Reload file")
+LOCALTEXT(TEXT_LOCALIZATION_RELOAD_HELP,	"Reload strings from the selected file.")
+LOCALTEXT(TEXT_LOCALIZATION_SAVE,			"Save File")
+LOCALTEXT(TEXT_LOCALIZATION_SAVE_HELP,		"Save current strings to file.")
+LOCALTEXT(TEXT_LOCALIZATION_EDITOR_TITLE,	"Language Editor")
+LOCALTEXT(TEXT_LOCALIZATION_EDITOR_OPEN,	"Open Editor")
+LOCALTEXT(TEXT_LOCALIZATION_EDITOR_HELP,	"Open language editor window.")
+LOCALTEXT(TEXT_LOCALIZATION_EDITOR_FILTER,	"Filter:")
+LOCALTEXT(TEXT_LOCALIZATION_EDITOR_FILTER_HELP,
+		"Filter usage:\n"
+		"  \"\"         display all lines\n"
+		"  \"xxx\"      display lines containing \"xxx\"\n"
+		"  \"xxx,yyy\"  display lines containing \"xxx\" or \"yyy\"\n"
+		"  \"-xxx\"     hide lines containing \"xxx\"")
+
+// BGDM Options
+LOCALTEXT(TEXT_BGDM_OPTS,					"BGDM Options")
+LOCALTEXT(TEXT_BGDM_HELP,					"Help")
+LOCALTEXT(TEXT_BGDM_HELP_VIEW,				"View Help")
+LOCALTEXT(TEXT_BGDM_HELP_METRICS,			"Metrics")
+LOCALTEXT(TEXT_BGDM_HELP_SRV_STATUS,		"Server Status")
+LOCALTEXT(TEXT_BGDM_HELP_ABOUT,				"About BGDM")
+
+LOCALTEXT(TEXT_BGDM_OPTS_ENABLED,			"BGDM Enabled")
+LOCALTEXT(TEXT_BGDM_OPTS_INPUTCAP,			"Capture Input")
+LOCALTEXT(TEXT_BGDM_OPTS_HEADERS,			"Minimal Panels")
+
+LOCALTEXT(TEXT_BGDM_OPTS_PROX,					"Proximity")
+LOCALTEXT(TEXT_BGDM_OPTS_PROX_SQUAD_PRIORITY,	"Prioritize Squad Members: soon(tm)")
+LOCALTEXT(TEXT_BGDM_OPTS_PROX_NON_SQUAD_HIDE,	"Hide Non-Squad Members")
+LOCALTEXT(TEXT_BGDM_OPTS_PROX_NON_PARTY_HIDE,	"Hide Non-Squad/Party/Guild Members")
+
+LOCALTEXT(TEXT_BGDM_OPTS_SRV,				"Server")
+LOCALTEXT(TEXT_BGDM_OPTS_SRV_AUTO_UP,		"Auto-Update Enabled")
+LOCALTEXT(TEXT_BGDM_OPTS_SRV_NET_SHARE,		"Network DPS Sharing Enabled")
+
+LOCALTEXT(TEXT_BGDM_OPTS_HPBARS,			"In-Game HP Bars")
+LOCALTEXT(TEXT_BGDM_OPTS_HPBARS_ENABLED,	"Enabled")
+LOCALTEXT(TEXT_BGDM_OPTS_HPBARS_BRIGHT,		"Brighter")
+
+LOCALTEXT(TEXT_BGDM_MAIN_ONOFF,				"BGDM On/Off:")
+LOCALTEXT(TEXT_BGDM_MAIN_ONOFF_HELP,
+		"Turning BGDM off will disable all BGDM processing\n"
+		"including networking functions and will disable drwaing\n"
+		"of all panels aside from BGDM Options.")
+
+LOCALTEXT(TEXT_BGDM_MAIN_INPUTCAP_ONOFF,	"Capture Input On/Off:")
+LOCALTEXT(TEXT_BGDM_MAIN_INPUTCAP_ONOFF_HELP,
+		"Turning input capture to off will disable interaction\n"
+		"with all panels aside from BGDM Options (this panel),\n"
+		"the panels will become transparent to the game and all\n"
+		"mouse clicks will pass through them.")
+
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_TARGET_HP,			"Target HP")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_TARGET_DIST,			"Target Distance")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_TARGET_BB,			"Target Breakbar")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_PLAYER_HP,			"Player HP %")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_PORT_DIST,			"Portal Distance")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_FLOAT_BARS,			"Float Bars")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_COMPASS,				"Compass")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_TARGET_STATS,		"Target Stats")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_GROUP_STATS,			"Group Stats")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_BUFF_UPTIME,			"Buff Uptime")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_INSPECT_SELF,		"Player Gearcheck")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_INSPECT_TARGET,		"Target Gearcheck")
+LOCALTEXT(TEXT_BGDM_MAIN_PANEL_SKILLS,				"Skill Breakdown")
+
+// Target Stats
+LOCALTEXT(TEXT_PANEL_TARGET_SHOW_DMG,	"Show Damage")
+LOCALTEXT(TEXT_PANEL_TARGET_SHOW_TTK,	"Show TTK")
+LOCALTEXT(TEXT_PANEL_TARGET_SHOW_GRAPH,	"Show Graph")
+LOCALTEXT(TEXT_PANEL_TARGET_SHOW_NPC,	"Show NPC Details")
+
+LOCALTEXT(TEXT_PANEL_TARGET_TIME,		"TIME:")
+LOCALTEXT(TEXT_PANEL_TARGET_L10S,		"L10")
+LOCALTEXT(TEXT_PANEL_TARGET_L30S,		"L30")
+LOCALTEXT(TEXT_PANEL_TARGET_PDPS,		"PDPS:")
+LOCALTEXT(TEXT_PANEL_TARGET_TDPS,		"TDPS:")
+LOCALTEXT(TEXT_PANEL_TARGET_PDMG,		"PDMG:")
+LOCALTEXT(TEXT_PANEL_TARGET_TDMG,		"TDMG:")
+LOCALTEXT(TEXT_PANEL_TARGET_TTK,		"TTK:")
+
+// Group DPS & Buff Uptime
+LOCALTEXT(TEXT_PANEL_OPTS_LINENO,		"Line Numbering")
+LOCALTEXT(TEXT_PANEL_OPTS_PROFCOL,		"Profession Coloring")
+
+// Group DPS
+LOCALTEXT(TEXT_PANEL_GDPS_GRAPH,		"Show DPS Graph")
+LOCALTEXT(TEXT_PANEL_GDPS_CLEAVE,		"Cleave")
+LOCALTEXT(TEXT_PANEL_GDPS_TARGET,		"Target")
+
+LOCALTEXT(TEXT_PANEL_GDPS_INVULN,		"invuln")
+LOCALTEXT(TEXT_PANEL_GDPS_LOCKED,		"locked")
+LOCALTEXT(TEXT_PANEL_GDPS_UNLOCKED,		"unlocked")
+
+LOCALTEXT(TEXT_GDPS_COLAC_NAME,			"NAME")
+LOCALTEXT(TEXT_GDPS_COLAC_CLASS,		"CLS")
+LOCALTEXT(TEXT_GDPS_COLAC_DPS,			"DPS")
+LOCALTEXT(TEXT_GDPS_COLAC_DMG_PER,		"PER")
+LOCALTEXT(TEXT_GDPS_COLAC_DMG_OUT,		"DMGOUT")
+LOCALTEXT(TEXT_GDPS_COLAC_DNG_IN,		"DMGIN")
+LOCALTEXT(TEXT_GDPS_COLAC_HPS,			"HPS")
+LOCALTEXT(TEXT_GDPS_COLAC_HEAL_OUT,		"HEAL")
+LOCALTEXT(TEXT_GDPS_COLAC_TIME,			"TIME")
+
+
+LOCALTEXT(TEXT_GDPS_COL_NAME,			"Name")
+LOCALTEXT(TEXT_GDPS_COL_CLASS,			"Class")
+LOCALTEXT(TEXT_GDPS_COL_DPS,			"Damage /s")
+LOCALTEXT(TEXT_GDPS_COL_DMG_PER,		"Damage %")
+LOCALTEXT(TEXT_GDPS_COL_DMG_OUT,		"Damage Out")
+LOCALTEXT(TEXT_GDPS_COL_DNG_IN,			"Damage In")
+LOCALTEXT(TEXT_GDPS_COL_HPS,			"Healing /s")
+LOCALTEXT(TEXT_GDPS_COL_HEAL_OUT,		"Healing Out")
+LOCALTEXT(TEXT_GDPS_COL_TIME,			"Time")
+
+// Buff Uptime
+LOCALTEXT(TEXT_BUFF_STD,				"Standard Buffs")
+LOCALTEXT(TEXT_BUFF_PROF,				"Profession Specific")
+
+LOCALTEXT(TEXT_BUFF_OPT_ICONS,			"Icons")
+LOCALTEXT(TEXT_BUFF_ICONS_STD,			"Use Standard Icons")
+LOCALTEXT(TEXT_BUFF_ICONS_CONTRAST,		"Use Contrast Icons")
+LOCALTEXT(TEXT_BUFF_ICONS_DARK,			"Use Dark Icons")
+LOCALTEXT(TEXT_BUFF_ICONS_DOWN,			"Use Downed Enemy Icon")
+LOCALTEXT(TEXT_BUFF_ICONS_SEAWEED,		"Use Seaweed Salad Icon")
+
+LOCALTEXT(TEXT_BUFF_COL_NAME,			"Name")
+LOCALTEXT(TEXT_BUFF_COL_CLS,			"Class")
+LOCALTEXT(TEXT_BUFF_COL_SUB,			"Squad Subgroup")
+LOCALTEXT(TEXT_BUFF_COL_DOWN,			"Downed")
+LOCALTEXT(TEXT_BUFF_COL_SCLR,			"Scholar Rune Bonus")
+LOCALTEXT(TEXT_BUFF_COL_SEAW,			"Seaweed Salad Bonus")
+LOCALTEXT(TEXT_BUFF_COL_PROT,			"Protection")
+LOCALTEXT(TEXT_BUFF_COL_QUIK,			"Quickness")
+LOCALTEXT(TEXT_BUFF_COL_ALAC,			"Alacrity")
+LOCALTEXT(TEXT_BUFF_COL_FURY,			"Fury")
+LOCALTEXT(TEXT_BUFF_COL_MIGHT,			"Might")
+LOCALTEXT(TEXT_BUFF_COL_GOTL,			"Druid: Grace of the Land")
+LOCALTEXT(TEXT_BUFF_COL_GLEM,			"Druid: Glyph of Empowerment")
+LOCALTEXT(TEXT_BUFF_COL_VIGOR,			"Vigor")
+LOCALTEXT(TEXT_BUFF_COL_SWIFT,			"Swiftness")
+LOCALTEXT(TEXT_BUFF_COL_STAB,			"Stability")
+LOCALTEXT(TEXT_BUFF_COL_RETAL,			"Retaliation")
+LOCALTEXT(TEXT_BUFF_COL_RESIST,			"Resistance")
+LOCALTEXT(TEXT_BUFF_COL_REGEN,			"Regeneration")
+LOCALTEXT(TEXT_BUFF_COL_AEGIS,			"Aegis")
+LOCALTEXT(TEXT_BUFF_COL_BANS,			"Warrior: Banner of Strength")
+LOCALTEXT(TEXT_BUFF_COL_BAND,			"Warrior: Banner of Discipline")
+LOCALTEXT(TEXT_BUFF_COL_BANT,			"Warrior: Banner of Tactics")
+LOCALTEXT(TEXT_BUFF_COL_EA,				"Warrior: Empower Allies")
+LOCALTEXT(TEXT_BUFF_COL_SPOTTER,		"Ranger: Spotter")
+LOCALTEXT(TEXT_BUFF_COL_FROST,			"Ranger: Frost Spirit")
+LOCALTEXT(TEXT_BUFF_COL_SUN,			"Ranger: Sun Spirit")
+LOCALTEXT(TEXT_BUFF_COL_STORM,			"Ranger: Storm Spirit")
+LOCALTEXT(TEXT_BUFF_COL_STONE,			"Ranger: Stone Spirit")
+LOCALTEXT(TEXT_BUFF_COL_ENGPP,			"Engineer: Pinpoint Distribution")
+LOCALTEXT(TEXT_BUFF_COL_REVNR,			"Herald: Naturalistic Resonance")
+LOCALTEXT(TEXT_BUFF_COL_REVAP,			"Revenant: Assassin's Presence")
+LOCALTEXT(TEXT_BUFF_COL_REVRD,			"Revenant: Rite of the great Dwarf")
+LOCALTEXT(TEXT_BUFF_COL_ELESM,			"Elementalist: Soothing Mist")
+LOCALTEXT(TEXT_BUFF_COL_GRDSN,			"Guardian: Strength in Numbers")
+LOCALTEXT(TEXT_BUFF_COL_NECVA,			"Necromancer: Vampiric Aura")
+LOCALTEXT(TEXT_BUFF_COL_TIME,			"Time")
+
+
+#if !(defined BGDM_TOS_COMPLIANT)
+
+// Gear check
+LOCALTEXT(TEXT_GEAR_TITLE_SELF,			"Character Inspect (Self)")
+LOCALTEXT(TEXT_GEAR_TITLE_TARGET,		"Character Inspect (Target)")
+
+LOCALTEXT(TEXT_GEAR_OPT_LOCALTEXT,		"Localized Text")
+
+LOCALTEXT(TEXT_GEAR_TAB_GEAR,			"Gear")
+LOCALTEXT(TEXT_GEAR_TAB_TRAITS,			"Traits")
+LOCALTEXT(TEXT_GEAR_TAB_SKINS,			"Skins")
+
+LOCALTEXT(TEXT_GEAR_WEPS,				"Weapons")
+LOCALTEXT(TEXT_GEAR_NOEQUIP,			"NOEQUIP")
+LOCALTEXT(TEXT_GEAR_NOSTATS,			"NOSTATS")
+
+LOCALTEXT(TEXT_WEP_TYPE_SWORD,			"Sword")
+LOCALTEXT(TEXT_WEP_TYPE_HAMMER,			"Hammer")
+LOCALTEXT(TEXT_WEP_TYPE_LONGBOW,		"Longbow")
+LOCALTEXT(TEXT_WEP_TYPE_SHORTBOW,		"Shortbow")
+LOCALTEXT(TEXT_WEP_TYPE_AXE,			"Axe")
+LOCALTEXT(TEXT_WEP_TYPE_DAGGER,			"Dagger")
+LOCALTEXT(TEXT_WEP_TYPE_GREATSWORD,		"Greatsword")
+LOCALTEXT(TEXT_WEP_TYPE_MACE,			"Mace")
+LOCALTEXT(TEXT_WEP_TYPE_PISTOL,			"Pistol")
+LOCALTEXT(TEXT_WEP_TYPE_UNKNOWN,		"UNKNOWN")
+LOCALTEXT(TEXT_WEP_TYPE_RIFLE,			"Rifle")
+LOCALTEXT(TEXT_WEP_TYPE_SCEPTER,		"Scepter")
+LOCALTEXT(TEXT_WEP_TYPE_STAFF,			"Staff")
+LOCALTEXT(TEXT_WEP_TYPE_FOCUS,			"Focus")
+LOCALTEXT(TEXT_WEP_TYPE_TORCH,			"Torch")
+LOCALTEXT(TEXT_WEP_TYPE_WARHORN,		"Warhorn")
+LOCALTEXT(TEXT_WEP_TYPE_SHIELD,			"Shield")
+
+
+LOCALTEXT(TEXT_GEAR_BACK,				"BACK")
+LOCALTEXT(TEXT_GEAR_HEAD,				"HEAD")
+LOCALTEXT(TEXT_GEAR_SHOULDER,			"SHOULDER")
+LOCALTEXT(TEXT_GEAR_CHEST,				"CHEST")
+LOCALTEXT(TEXT_GEAR_GLOVES,				"GLOVES")
+LOCALTEXT(TEXT_GEAR_LEGS,				"LEGS")
+LOCALTEXT(TEXT_GEAR_BOOTS,				"BOOTS")
+LOCALTEXT(TEXT_GEAR_WEP1M,				"WEP1_M")
+LOCALTEXT(TEXT_GEAR_WEP1O,				"WEP1_O")
+LOCALTEXT(TEXT_GEAR_WEP2M,				"WEP2_M")
+LOCALTEXT(TEXT_GEAR_WEP2O,				"WEP2_O")
+LOCALTEXT(TEXT_GEAR_EAR1,				"EAR1")
+LOCALTEXT(TEXT_GEAR_EAR2,				"EAR2")
+LOCALTEXT(TEXT_GEAR_RING1,				"RING1")
+LOCALTEXT(TEXT_GEAR_RING2,				"RING2")
+LOCALTEXT(TEXT_GEAR_AMULET,				"AMULET")
+
+LOCALTEXT(TEXT_GEAR_AR_TOTAL,			"Total AR")
+LOCALTEXT(TEXT_GEAR_AR_MAIN,			"Main:")
+LOCALTEXT(TEXT_GEAR_AR_ALT,				"Alt :")
+
+// Menu -Float Bars
+LOCALTEXT(TEXT_FLOATBAR_TITLE,				"Float Bars")
+LOCALTEXT(TEXT_FLOATBAR_HP,					"Draw HP Bar")
+LOCALTEXT(TEXT_FLOATBAR_GOTL,				"Draw GOTL indicator")
+LOCALTEXT(TEXT_FLOATBAR_CLASS,				"Draw Class indicator")
+LOCALTEXT(TEXT_FLOATBAR_INC_SELF,			"Include Self")
+LOCALTEXT(TEXT_FLOATBAR_INC_SELF_HELP,		"Draw the float bar for controlled character.\n")
+LOCALTEXT(TEXT_FLOATBAR_MAX_PL,				"Max Players")
+LOCALTEXT(TEXT_FLOATBAR_MAX_PL_HELP,
+		"Maximum amount of ally bars to display capped at squad size (50)\n"
+		"Note that proximity settings apply here as well, e.g. if you limit\n"
+		"to squad only you will only display bars on people from your squad\n"
+		"even if there are more people around you that can be accomodated.\n"
+		"Double click or click and drag to change the value.")
+
+LOCALTEXT(TEXT_FLOATBAR_BARVERT,			"Bar Vertical")
+LOCALTEXT(TEXT_FLOATBAR_BARVERT_HELP,
+		"Float bar vertical adjustment (y-axis) from character hitbox.\n"
+		"The higher this value the higher the bar will appear on the\n"
+		"character model.")
+
+LOCALTEXT(TEXT_FLOATBAR_BARWIDTH,				"Bar Width")
+LOCALTEXT(TEXT_FLOATBAR_BARWIDTH_HELP,			"Float bar rectangle width.\nAffects both HP bar & GOTL bar.\n")
+LOCALTEXT(TEXT_FLOATBAR_BARHEIGHT_HP,			"Bar Height (HP)")
+LOCALTEXT(TEXT_FLOATBAR_BARHEIGHT_HP_HELP,		"HP Float bar rectangle width.\n")
+LOCALTEXT(TEXT_FLOATBAR_BARHEIGHT_GOTL,			"Bar Height (GOTL)")
+LOCALTEXT(TEXT_FLOATBAR_BARHEIGHT_GOTL_HELP,	"GOTL Float bar rectangle width.\n")
+
+LOCALTEXT(TEXT_FLOATBAR_CLASS_RECT,				"Class Rect w/h")
+LOCALTEXT(TEXT_FLOATBAR_CLASS_RECT_HELP,
+		"Class rectangle size (width x height).\n"
+		"Affects both icon mode & colored mode.\n")
+
+LOCALTEXT(TEXT_FLOATBAR_CLASS_IND,				"Class indicator")
+LOCALTEXT(TEXT_FLOATBAR_CLASS_IND_HELP,
+		"Only takes effect when class indicator is enabled.\n"
+		"Class Icon will draw the approperiate class icon (including elites)\n"
+		"Class image will draw a colored rectangle using the same coloring\n"
+		"used to color the names when enabling profession coloring under\n"
+		"options of the buff uptime and group DPS panels.")
+
+LOCALTEXT(TEXT_FLOATBAR_TEXTPER_SIZE,			"Text %% size")
+LOCALTEXT(TEXT_FLOATBAR_TEXTPER_SIZE_HELP,		"Determines the size of the HP bar text percentage.\n")
+LOCALTEXT(TEXT_FLOATBAR_TEXTPER_DRAW,			"Draw Text %%")
+LOCALTEXT(TEXT_FLOATBAR_TEXTPER_DRAW_HELP,		"Determines if the HP percentage will be written onto the HP bar.\n")
+
+LOCALTEXT(TEXT_FLOATBAR_TEXTPER_FR_ROUND,		"Frame rounding")
+LOCALTEXT(TEXT_FLOATBAR_TEXTPER_FR_ROUND_HELP,
+		"Determines if the rectangle frame edges will be rounded.\n"
+		"Affects all drawn frames: HP, GOTL and class indicator.\n")
+
+LOCALTEXT(TEXT_FLOATBAR_TEXTPER_FR_THICK,		"Frame thickness")
+LOCALTEXT(TEXT_FLOATBAR_TEXTPER_FR_THICK_HELP,
+		"Determines the rectangle frame thickness.\n"
+		"Affects all drawn frames: HP, GOTL and class indicator.\n")
+
+LOCALTEXT(TEXT_FLOATBAR_COL_FRAME,				"Frame color")
+LOCALTEXT(TEXT_FLOATBAR_COL_TEXTPER,			"Text %% color")
+LOCALTEXT(TEXT_FLOATBAR_COL_CLASS_BG,			"Class bg color")
+LOCALTEXT(TEXT_FLOATBAR_COL_HP_LEFT,			"HP left color  (normal)")
+LOCALTEXT(TEXT_FLOATBAR_COL_HP_90,				"HP <90%% color  (normal)")
+LOCALTEXT(TEXT_FLOATBAR_COL_HP_RIGHT,			"HP right color (normal)")
+LOCALTEXT(TEXT_FLOATBAR_COL_DOWN_LEFT,			"HP left color  (downed)")
+LOCALTEXT(TEXT_FLOATBAR_COL_DOWN_RIGHT,			"HP right color (downed)")
+LOCALTEXT(TEXT_FLOATBAR_COL_SHROUD_LEFT,		"HP left color  (shroud)")
+LOCALTEXT(TEXT_FLOATBAR_COL_SHROUD_RIGHT,		"HP right color (shroud)")
+LOCALTEXT(TEXT_FLOATBAR_COL_GOTL_LEFT,			"GOTL left color")
+LOCALTEXT(TEXT_FLOATBAR_COL_GOTL_RIGHT,			"GOTL right color")
+
+#endif	// !(defined BGDM_TOS_COMPLIANT)

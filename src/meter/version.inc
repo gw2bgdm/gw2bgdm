@@ -1,0 +1,8 @@
+#define BGDM_MAJORNUMBER			2
+#define BGDM_MINORNUMBER			7
+#define BGDM_BUILDNUMBER			1
+#define BGDM_MODIFICATIONNUMBER		3
+#define BGDM_BUILDEXT				"rx"
+#define BGDM_DATEYEAR				2017
+#define BGDM_DATEMONTH				08
+#define BGDM_DATEDAY				08

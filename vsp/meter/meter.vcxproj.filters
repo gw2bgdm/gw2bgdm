@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\meter\entry.c" />
+    <ClCompile Include="..\..\src\meter\lru_cache.c" />
+    <ClCompile Include="..\..\src\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\utf.cpp" />
+    <ClCompile Include="..\..\src\meter\localization.cpp">
+      <Filter>localization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\config.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\network.c">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\localdb.c">
+      <Filter>localdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\crypto.c">
+      <Filter>winapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\process.c">
+      <Filter>winapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\imgui_impl_dx9.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\imgui_bgdm.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_extras\imgui_freetype.cpp">
+      <Filter>imgui_extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_extras\imgui_node_graph_test.cpp">
+      <Filter>imgui_extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\imgui_extras\imgui_pie_menu_test.cpp">
+      <Filter>imgui_extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\autolock.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\ForeignFncs.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\updater.c">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\hooks.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meter\dps.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\meter\lru_cache.h" />
+    <ClInclude Include="..\..\src\meter\resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\utf.h" />
+    <ClInclude Include="..\..\src\meter\logging.h" />
+    <ClInclude Include="..\..\src\meter\localization.h">
+      <Filter>localization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\network.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\localdb.h">
+      <Filter>localdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\offsets.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\gfx.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\enums.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\crypto.h">
+      <Filter>winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\process.h">
+      <Filter>winapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\imgui_impl_dx9.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\imgui_bgdm.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui_extras\imgui_freetype.h">
+      <Filter>imgui_extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui_extras\imgui_memory_editor.h">
+      <Filter>imgui_extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui_extras\imgui_colorpicker.h">
+      <Filter>imgui_extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\imgui_extras\imgui_tablabels.h">
+      <Filter>imgui_extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\imgui_bgdm_ext.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\autolock.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\ForeignFncs.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\updater.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\hooks.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meter\dps.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def" />
+    <None Include="..\..\src\meter\meter.ini">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\src\imgui\LICENSE">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\src\imgui\README.md">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\src\meter\localization.inc">
+      <Filter>localization</Filter>
+    </None>
+    <None Include="..\..\res\Deutsche (German)">
+      <Filter>localization</Filter>
+    </None>
+    <None Include="..\..\res\Simplified Chinese">
+      <Filter>localization</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\src\meter\version.rc2">
+      <Filter>resources</Filter>
+    </Text>
+    <Text Include="..\..\src\meter\version.inc">
+      <Filter>resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\meter\rbx.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{ab8a18ca-b48e-454b-a9b7-d6d5cdbc8741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{fd974c53-de2a-4821-8e33-a7bb28cc9676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="localization">
+      <UniqueIdentifier>{b7d5a7ee-ff2c-42d9-bd84-5c437e912ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{fdc07666-3e7c-4df9-acaa-e701d801e0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{454c0b5a-125c-45d7-ab58-8cae5ad9c7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="localdb">
+      <UniqueIdentifier>{c9a93031-c158-4279-8716-e3122996bea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{4bdbe68d-07de-4582-a454-39f6a3407a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="winapi">
+      <UniqueIdentifier>{e975fa81-7b2b-4f4d-8334-6f7a1e7b2667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{770e1c77-86d2-4167-b0eb-67fdd59bbd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui_extras">
+      <UniqueIdentifier>{40f7becc-3cc0-4173-9364-3c1f521d3fbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\meter\meter.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
